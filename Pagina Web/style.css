@@ -1,0 +1,64 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./imagenes/wallpaperbetter.com_1920x1080.jpg);
+    background-size: 100%;
+}
+
+/* Caja de registro */
+#form-register {
+    background: rgb(49, 63, 194);
+    width: 400px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 13px;
+    color: rgb(245, 245, 245);
+    font-family: 'Courier New', Courier, monospace;
+    box-shadow: 8px 10px 30px  black;
+}
+
+#form-register h2 {
+    font-size: 21px;
+    margin-bottom: 13px;
+}
+
+.entradas {
+    width: 100%;
+    background-color: rgb(49, 63, 194);
+    padding: 7px;
+    margin-bottom: 13px;
+    border-radius: 4px;
+    border: 1px solid rgb(6, 6, 87);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+}
+
+#form-register p {
+    height: 55px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+#form-register a{
+    color: yellow;
+    text-decoration: none;
+}
+/* lo mismo pero con animacion sin bloquear el color amarillo */
+#form-register a:hover {
+    text-decoration: underline;
+}
+
+#form-register .boton {
+    width: 100%;
+    background-color: rgb(49, 49, 209);
+    border: none;
+    padding: 12px;
+    margin: 13px 0px 20px 0px;
+    font-size: 18px;
+}
