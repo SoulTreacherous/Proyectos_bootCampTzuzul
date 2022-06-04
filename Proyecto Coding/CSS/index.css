@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(43, 38, 38);
+}
+.meme1{
+    margin-top: 200px;
+}
+
+#Juego{
+    display: flex;
+
+    width: 640px;
+    height: auto;
+}
+
+h1{
+    font-size: xx-large;
+    text-align: center;
+}
+
+p{
+    font-size: xx-large;
+    text-align: center;
+}
