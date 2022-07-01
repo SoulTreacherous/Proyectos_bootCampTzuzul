@@ -24,7 +24,7 @@ a {
 						 "menu contenido";
 	transition: all .5s ease;
 }
-
+/* NOTA MENTAL, EL GRID-AREA DEBE COINCIDIR CON GRID-TEMPLATE-AREA*/
 .contenedor.active {
 	grid-template-columns: minmax(300px, 18%) auto;
 }
